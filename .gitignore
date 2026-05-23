@@ -1,0 +1,14 @@
+# 个人笔记数据 - 绝不能上传
+*.json
+*.db
+*.sqlite
+*.backup
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
