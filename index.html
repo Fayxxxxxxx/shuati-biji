@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WangFly的刷题笔记</title>
+<title>刷题笔记</title>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <style>
   :root {
@@ -1185,7 +1185,7 @@
 <div class="app">
   <!-- 侧边栏 -->
   <div class="sidebar">
-    <div class="sidebar-header">WangFly的刷题笔记</div>
+    <div class="sidebar-header">刷题笔记</div>
     <div class="sidebar-months" id="sidebarMonths"></div>
     <div class="sidebar-footer">
       <!-- 签到热力图 -->
@@ -2065,7 +2065,7 @@ document.getElementById('btnExport').addEventListener('click', () => {
     return;
   }
 
-  let md = '# WangFly的刷题笔记\n\n';
+  let md = '# 刷题笔记\n\n';
   md += `> 导出时间: ${new Date().toLocaleString('zh-CN')}\n`;
   md += `> 共 ${dates.length} 天有记录\n\n---\n\n`;
 
@@ -2079,7 +2079,7 @@ document.getElementById('btnExport').addEventListener('click', () => {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `WangFly的刷题笔记_${todayStr()}.md`;
+  a.download = `刷题笔记_${todayStr()}.md`;
   a.click();
   URL.revokeObjectURL(url);
 });
